@@ -18,31 +18,32 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
+      <p className="mb-3 font-light">
+        {/* After graduating with a degree in{" "}
         <span className="font-medium">Accounting</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
+        <span className="font-medium">full-stack web development</span>.{" "} */}
+
+
+        As a freelance software developer, I specialize in building <span className="font-medium">web and mobile applications. </span>
+        I love working with modern frameworks and technologies to build fast, responsive, and engaging web and mobile apps.
+        Whether it's creating pixel-perfect UIs, optimizing performance, or solving tricky challenges, I'm always up for it!
+
+        My <span className="italic">favorite</span> part of programming is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        feeling of finally figuring out a solution to a problem.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      <p>My core stack
+        is{" "}
+        <span className="font-medium">
+          React, Next.js, Node.js, and MongoDB.
+        </span>
+      </p>
+
+      <p className="font-light">
+        <span className="italic">When I'm not coding</span>, you'll probably find me  <span className="font-medium">exploring new tech trends, experimenting with side projects,</span> or enjoying a good cup of coffee.
+        {" "}Let's build something amazing together!🚀
       </p>
     </motion.section>
   );
