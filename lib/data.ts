@@ -87,14 +87,14 @@ export const projectsData = [
   {
     title: "Baako GmbH",
     description:
-      "I worked as a front-end developer and assited in transforming figma design into snappy UI for ChillWhales NFT marketplace.",
+      "I worked as a front-end developer and assited in transforming figma design into snappy UI for chillwhales.com which is a digital collection of unique NFTs on the LUKSO blockchain.",
     tags: ["React", "Next.js", "Tailwind", "Three.js"],
     imageUrl: baako,
   },
   {
     title: "Barabar",
     description:
-      "Hobby project to explore the power of OCR. Barabar is an OCR-powered bill splitting app that lets you snap a receipt, auto-detect items, assign them to people, and instantly generate shareable individual bills.",
+      "Hobby project to explore OCR technology. Barabar is an OCR-powered bill splitting app that lets you snap a receipt, auto-detect items, assign them to people, and instantly generate shareable individual bills.",
     tags: ["Android", "Java"],
     imageUrl: barabar,
   },

@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { BiLogoUpwork } from "react-icons/bi";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -31,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/dp3.png"
+              src="/pp2.png"
               alt="Biswas portrait"
               width="800"
               height="800"
@@ -42,7 +43,7 @@ export default function Intro() {
           </motion.div>
 
           <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
+            className="absolute bottom-0 right-2 text-4xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -65,7 +66,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Biswas.</span> I'm a{" "}
         <span className="font-bold">software engineer</span> with{" "}
         <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">web & mobile applications</span>. 
+        building <span className="italic">web & mobile applications</span>.
         My focus is{" "} <span className="font-extrabold">React (Next.js)</span>
       </motion.h1>
 
@@ -108,11 +109,21 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.upwork.com/freelancers/~01459b52cca83e532c"
+          target="_blank"
+        >
+          <BiLogoUpwork />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/khayargoli"
           target="_blank"
         >
           <FaGithubSquare />
         </a>
+
+
       </motion.div>
     </section>
   );

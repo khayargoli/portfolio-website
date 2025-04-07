@@ -23,13 +23,11 @@ export default function About() {
         <span className="font-medium">Accounting</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "} */}
-
-
         As a freelance software developer, I specialize in building <span className="font-medium">web and mobile applications. </span>
         I love working with modern frameworks and technologies to build fast, responsive, and engaging web and mobile apps.
         Whether it's creating pixel-perfect UIs, optimizing performance, or solving tricky challenges, I'm always up for it!
 
-        My <span className="italic">favorite</span> part of programming is the
+        My <span className="">favorite</span> part of programming is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem.
       </p>
@@ -43,7 +41,7 @@ export default function About() {
 
       <p className="font-light">
         <span className="italic">When I'm not coding</span>, you'll probably find me  <span className="font-medium">exploring new tech trends, experimenting with side projects,</span> or enjoying a good cup of coffee.
-        {" "}Let's build something amazing together!🚀
+        {" "}Let's build something <span className="font-medium">amazing together!</span>🚀
       </p>
     </motion.section>
   );
