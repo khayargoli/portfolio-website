@@ -46,7 +46,7 @@ export const experiencesData = [
   },
   {
     title: "Junior Software Engineer",
-    location: "IT Himalaya (PROCIT)",
+    location: "IT@Himalaya (PROCIT)",
     description:
       "I worked as a junior mobile developer for 4 years, led a team of 4 developers to plan and build custom web apps for industrial clients.",
     icon: React.createElement(CgWorkAlt),
