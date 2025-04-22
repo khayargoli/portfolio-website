@@ -16,7 +16,7 @@ export default function Contact() {
   return (
     <motion.section
       id="contact"
-    //  ref={ref}
+       ref={ref}
       className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
       initial={{
         opacity: 0,
@@ -33,7 +33,7 @@ export default function Contact() {
     >
       <SectionHeading>Let's work together!</SectionHeading>
 
-      <p className="text-gray-700 -mt-6 dark:text-white/80">
+      <p className="text-gray-700 -mt-2 mb-2 dark:text-white/80">
 {/*         Please contact me directly at{" "}
         <a className="underline" href="mailto:example@gmail.com">
           biswas.khayargoli@gmail.com
