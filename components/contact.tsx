@@ -31,7 +31,7 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>Let's work together!</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
 {/*         Please contact me directly at{" "}
@@ -39,7 +39,7 @@ export default function Contact() {
           biswas.khayargoli@gmail.com
         </a>{" "}
         or through this form. */}
-                Please contact me directly through Upwork.
+For project inquiries, please contact me directly via Upwork. I handle all client work through the platform to keep things streamlined and professional.
       </p>
        
         <a
