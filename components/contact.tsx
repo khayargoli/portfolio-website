@@ -50,7 +50,7 @@ For project inquiries, please contact me directly via Upwork. I handle all clien
         }}
       >
          <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-[#6FDA44] p-4 text-white flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
           href="https://www.upwork.com/freelancers/~01459b52cca83e532c"
           target="_blank"
         >
