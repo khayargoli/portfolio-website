@@ -96,14 +96,14 @@ export const projectsData = [
     title: "Barabar",
     description:
       "Hobby project to explore OCR technology. Barabar is an OCR-powered bill splitting app that lets you snap a receipt, auto-detect items, assign them to people, and instantly generate shareable individual bills.",
-    tags: ["Android", "Java"],
+    tags: ["Android", "Java", "OCR"],
     imageUrl: barabar,
   },
   {
     title: "BlueSky Software",
     description:
       "Blue Sky is a Connect Security Solutions product. Founded in 2004, we have ensured the safety of security staff for 18 years. I was a solo developer and completed several apps of the company.",
-    tags: ["Android", "Java"],
+    tags: ["Android", "Java", "BLE Beacon"],
     imageUrl: bluesky,
   },
   {
