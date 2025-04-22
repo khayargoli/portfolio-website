@@ -9,7 +9,7 @@ import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 
 export default function Contact() {
-  // const { ref } = useSectionInView("Contact");
+   const { ref } = useSectionInView("Contact");
 
   return (
     <motion.section
@@ -32,14 +32,15 @@ export default function Contact() {
       <SectionHeading>Contact me</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
+{/*         Please contact me directly at{" "}
         <a className="underline" href="mailto:example@gmail.com">
           biswas.khayargoli@gmail.com
         </a>{" "}
-        or through this form.
+        or through this form. */}
+                Please contact me directly through Upwork.
       </p>
 
-      <form
+{/*       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
@@ -68,7 +69,7 @@ export default function Contact() {
           maxLength={5000}
         />
         <SubmitBtn />
-      </form>
+      </form> */}
     </motion.section>
   );
 }
