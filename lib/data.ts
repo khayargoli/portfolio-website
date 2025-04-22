@@ -7,6 +7,7 @@ import keybalance from "@/public/3.png";
 import baako from "@/public/5.png";
 import bluesky from "@/public/blueskyy.png";
 import barabar from "@/public/7.png";
+import bored from "@/public/bored2.jpg";
 
 export const links = [
   {
@@ -105,6 +106,12 @@ export const projectsData = [
     tags: ["Android", "Java"],
     imageUrl: bluesky,
   },
+  {
+    title: "Bored",
+    description: "Bored is a fun and engaging app born from my love for Amazfit smartwatches. It helps users beat boredom by offering a variety of productive activities right on their wrist.",
+    tags: ["ZeppOS", "Amazfit", "Smartwatch"],
+    imageUrl: bored
+  }
 ] as const;
 
 export const skillsData = [
