@@ -102,7 +102,7 @@ export const projectsData = [
   {
     title: "BlueSky Software",
     description:
-      "Blue Sky is a Connect Security Solutions product. Founded in 2004, we have ensured the safety of security staff for 18 years. I was a solo developer and completed several apps of the company.",
+      "Blue Sky is a Connect Security Solutions product. Founded in 2004, the company has ensured safety of security staff for 18 years. I was a solo developer and completed several apps of the company.",
     tags: ["Android", "Java", "BLE Beacon"],
     imageUrl: bluesky,
   },
