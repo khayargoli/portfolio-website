@@ -34,8 +34,11 @@ export default function About() {
 
       <p>My core stack
         is{" "}
-        <span className="font-medium">
+{/*         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB.
+        </span> */}
+         <span className="font-medium">
+          Angular, TypeScript, Node.js, and MongoDB.
         </span>
       </p>
 
