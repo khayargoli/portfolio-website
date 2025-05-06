@@ -67,7 +67,7 @@ export default function Intro() {
         <span className="font-bold">software engineer</span> with{" "}
         <span className="font-bold">8 years</span> of experience. I enjoy
         building <span className="italic">web & mobile applications</span>.
-        My focus is{" "} <span className="font-extrabold">Angular (TypeScript)</span>
+{/*         My focus is{" "} <span className="font-extrabold">Angular/React (TypeScript)</span> */}
       </motion.h1>
 
       <motion.div
