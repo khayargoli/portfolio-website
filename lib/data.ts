@@ -86,7 +86,7 @@ export const projectsData = [
     imageUrl: keybalance,
   },
   {
-    title: "Baako GmbH",
+    title: "ChillWhales",
     description:
       "I worked as a front-end developer and assited in transforming figma design into snappy UI for chillwhales.com which is a digital collection of unique NFTs on the LUKSO blockchain.",
     tags: ["React", "Next.js", "Tailwind", "Three.js"],
