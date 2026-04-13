@@ -23,8 +23,8 @@ export default function About() {
         <span className="font-medium">Accounting</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "} */}
-        As a freelance software developer, I specialize in building <span className="font-medium">web and mobile applications. </span>
-        I love working with modern frameworks and technologies to build fast, responsive, and engaging web and mobile apps.
+        As a freelance software engineer, I specialize in building <span className="font-medium">Web and Mobile applications. </span>
+        I love working with modern frameworks and technologies to build fast, responsive, and engaging web and mobile apps, and I often <span className="font-medium">leverage AI tools</span> to improve development speed, enhance code quality, and solve problems more efficiently.
         Whether it's creating pixel-perfect UIs, optimizing performance, or solving tricky challenges, I'm always up for it!
 
         My <span className="">favorite</span> part of programming is the
@@ -34,11 +34,11 @@ export default function About() {
 
       <p>My core stack
         is{" "}
-{/*         <span className="font-medium">
+        {/*         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB.
         </span> */}
-         <span className="font-medium">
-          Angular/React, TypeScript, Node.js, and MongoDB.
+        <span className="font-medium">
+          Next.js/React, TypeScript, Node.js, and MongoDB.
         </span>
       </p>
 

@@ -8,6 +8,7 @@ import baako from "@/public/5.png";
 import bluesky from "@/public/blueskyy.png";
 import barabar from "@/public/7.png";
 import bored from "@/public/bored2.jpg";
+import fizno from "@/public/fizno.png";
 
 export const links = [
   {
@@ -72,11 +73,19 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Fizno",
+    description: "Worked as a Full Stack Developer on the Fizno Marketplace. Designed and implemented a complete checkout system, ensuring smooth and reliable transactions. Focused on optimizing performance, debugging production issues, and maintaining a stable backend system.",
+    tags: ["React", "Next.js", "TypeScript", "Node.js", "MySQL", "AWS"],
+    imageUrl: fizno,
+    link: "https://fizno.com",
+  },
+  {
     title: "WÖRK",
     description:
-      "I worked as a front-end web and mobile developer on this startup project for 2 years. With WÖRK job seekers can find jobs through video based insights brought by companies.",
+      "I worked as a front-end web and mobile developer on this startup project for 2 years. With WÖRK job seekers can find jobs through video based insights brought by companies. WÖRK is available to download on both AppStore and PlayStore.",
     tags: ["React", "Next.js", "Tailwind", "TypeScript", "Flutter"],
     imageUrl: work,
+    link: "https://woerk.app",
   },
   {
     title: "KeyBalance",
@@ -84,6 +93,7 @@ export const projectsData = [
       "A complete cloud based ERP system. I was the front-end web and mobile app developer. Built with cross-platform technology that runs on android, iOS and browsers.",
     tags: ["Angular", "TypeScript", "PrimeNg", "Ionic Capacitor"],
     imageUrl: keybalance,
+    link: "https://keybalance.com",
   },
   {
     title: "ChillWhales",
@@ -91,6 +101,7 @@ export const projectsData = [
       "I worked as a front-end developer and assited in transforming figma design into snappy UI for chillwhales.com which is a digital collection of unique NFTs on the LUKSO blockchain.",
     tags: ["React", "Next.js", "Tailwind", "TypeScript"],
     imageUrl: baako,
+    link: "https://chillwhales.com",
   },
   {
     title: "Barabar",
@@ -98,6 +109,7 @@ export const projectsData = [
       "Hobby project to explore OCR technology. Barabar is an OCR-powered bill splitting app that lets you snap a receipt, auto-detect items, assign them to people, and instantly generate shareable individual bills.",
     tags: ["Android", "Java", "OCR"],
     imageUrl: barabar,
+    link: "https://play.google.com/store/apps/details?id=com.splitbill.barabar&hl=en",
   },
   {
     title: "BlueSky Software",
@@ -105,12 +117,14 @@ export const projectsData = [
       "Blue Sky is a Connect Security Solutions product. Founded in 2004, the company has ensured safety of security staff for 18 years. I was a solo developer and completed several apps of the company.",
     tags: ["Android", "Java", "BLE Beacon"],
     imageUrl: bluesky,
+    link: "https://blueskytrail.co.uk/",
   },
   {
     title: "Bored",
     description: "Bored is a fun and engaging app born from my love for Amazfit smartwatches. It helps users beat boredom by offering a variety of productive activities right on their wrist.",
     tags: ["ZeppOS", "Amazfit", "Smartwatch"],
-    imageUrl: bored
+    imageUrl: bored,
+    link: "https://developer.zepp.com/apps/bored"
   }
 ] as const;
 
@@ -123,16 +137,17 @@ export const skillsData = [
   "Next.js",
   "Angular",
   "Node.js",
+  "AWS",
+  "Docker",
   "Git",
   "Tailwind",
   "Prisma",
-  "MongoDB",
+  "MySQL",
   "Postgres",
   "ZuStand",
   "Express",
-  "PostgreSQL",
   "Framer Motion",
   "Dart",
   "Flutter",
-  "Android",
+  "Android (Java)",
 ] as const;

@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FiExternalLink } from "react-icons/fi";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -12,6 +13,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -31,9 +33,22 @@ export default function Project({
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
-          <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="mt-2 mb-2 leading-relaxed text-gray-700 dark:text-white/70">
+        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-7 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
+          <div className="inline-flex items-center gap-2">
+            <h3 className="text-xl font-semibold">{title}</h3>
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label={`Open ${title} project`}
+              className="group/link text-gray-700 dark:text-white/70"
+            >
+              <span className="block rounded-full p-1 transition-all duration-300 group-hover/link:bg-black/10 group-hover/link:dark:bg-white/20 group-hover/link:shadow-[0_0_16px_rgba(59,130,246,0.45)] group-hover/link:scale-110 group-hover/link:-rotate-12">
+                <FiExternalLink className="text-base transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
+              </span>
+            </a>
+          </div>
+          <p className="mt-2 mb-2 leading-relaxed text-gray-700 dark:text-white/70 text-sm">
             {description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">

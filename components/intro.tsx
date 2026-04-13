@@ -32,13 +32,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/pp2.png"
+              src="/pp3.png"
               alt="Biswas portrait"
               width="800"
               height="800"
               quality="100"
               priority={true}
-              className="h-36 w-36 rounded-full object-cover border-[0.35rem] border-gray-100 shadow-xl"
+              className="h-36 w-36 rounded-full object-cover border-[0.35rem] border-gray-100 shadow-xl -scale-x-100"
             />
           </motion.div>
 
@@ -64,10 +64,10 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Biswas.</span> I'm a{" "}
-        <span className="font-bold">software engineer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
+        <span className="font-bold">freelance software engineer</span> with{" "}
+        <span className="font-bold">10 years</span> of experience. I enjoy
         building <span className="italic">web & mobile applications</span>.
-{/*         My focus is{" "} <span className="font-extrabold">Angular/React (TypeScript)</span> */}
+        {/*         My focus is{" "} <span className="font-extrabold">Angular/React (TypeScript)</span> */}
       </motion.h1>
 
       <motion.div
@@ -78,7 +78,7 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-{/*         <Link
+        {/*         <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
