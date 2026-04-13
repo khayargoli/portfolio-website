@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/pp3.png"
+              src="/pp2.png"
               alt="Biswas portrait"
               width="800"
               height="800"
