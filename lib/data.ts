@@ -136,7 +136,8 @@ export const skillsData = [
   "React",
   "Next.js",
   "Angular",
-  "Node.js",
+  "Node/Express",
+  "Stripe",
   "AWS",
   "Docker",
   "Git",
@@ -150,4 +151,5 @@ export const skillsData = [
   "Dart",
   "Flutter",
   "Android (Java)",
+  "Cursor",
 ] as const;
