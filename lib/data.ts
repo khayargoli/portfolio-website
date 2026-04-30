@@ -150,6 +150,7 @@ export const skillsData = [
   "Framer Motion",
   "Dart",
   "Flutter",
-  "Android (Java)",
   "Cursor",
+  "Ionic Framework",
+  "Capacitor/Cordova"
 ] as const;
