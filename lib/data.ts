@@ -74,7 +74,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Fizno",
-    description: "Worked as a Full Stack Developer on the Fizno Marketplace. Designed and implemented a complete checkout system, ensuring smooth and reliable transactions. Focused on optimizing performance, debugging production issues, and maintaining a stable backend system.",
+    description: "Worked as a Full Stack Developer for Fizno, a U.S. based marketplace platform. Built and implemented a complete checkout system to deliver seamless and reliable transactions, while also improving performance, resolving production issues, and maintaining a stable and scalable backend system.",
     tags: ["React", "Next.js", "TypeScript", "Node.js", "MySQL", "AWS"],
     imageUrl: fizno,
     link: "https://fizno.com",
