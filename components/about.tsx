@@ -24,7 +24,7 @@ export default function About() {
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "} */}
         As a freelance software engineer, I specialize in building <span className="font-medium">Web and Mobile applications. </span>
-        I love working with modern frameworks and technologies to build fast, responsive, and engaging web and mobile apps, and I often <span className="font-medium">leverage AI tools</span> to improve development speed, enhance code quality, and solve problems more efficiently.
+        I like working with modern frameworks and technologies to build fast, responsive, and engaging web and mobile apps, and I often <span className="font-medium">leverage AI tools</span> to improve development speed, enhance code quality, and solve problems more efficiently.
         Whether it's creating pixel-perfect UIs, optimizing performance, or solving tricky challenges, I'm always up for it!
 
         My <span className="">favorite</span> part of programming is the
