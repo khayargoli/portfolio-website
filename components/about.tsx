@@ -38,7 +38,7 @@ export default function About() {
           React, Next.js, Node.js, and MongoDB.
         </span> */}
         <span className="font-medium">
-          Next.js/React, TypeScript, Node.js, and MongoDB.
+          Next.js/React, Angular, TypeScript, Node.js, and PostgreSQL.
         </span>
       </p>
 
