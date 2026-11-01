@@ -9,6 +9,7 @@ import bluesky from "@/public/blueskyy.png";
 import barabar from "@/public/7.png";
 import bored from "@/public/bored2.jpg";
 import fizno from "@/public/fizno.png";
+import vybestamps from "@/public/vybestamps.jpg";
 
 export const links = [
   {
@@ -72,6 +73,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Vybestamps Digital Loyalty Platform",
+    description:
+      "A digital loyalty platform that brings every customer card into one phone, helping people collect stamps and stay connected with their favorite local businesses.",
+    tags: ["React", "TypeScript", "Digital Loyalty", "Mobile"],
+    imageUrl: vybestamps,
+  },
   {
     title: "Fizno",
     description: "Worked as a Full Stack Developer on the Fizno Marketplace. Designed and implemented a complete checkout system, ensuring smooth and reliable transactions. Focused on optimizing performance, debugging production issues, and maintaining a stable backend system.",
