@@ -6,7 +6,9 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FiExternalLink } from "react-icons/fi";
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = Omit<(typeof projectsData)[number], "link"> & {
+  link?: string;
+};
 
 export default function Project({
   title,
@@ -36,17 +38,19 @@ export default function Project({
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-7 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <div className="inline-flex items-center gap-2">
             <h3 className="text-xl font-semibold">{title}</h3>
-            <a
-              href={link}
-              target="_blank"
-              rel="noreferrer noopener"
-              aria-label={`Open ${title} project`}
-              className="group/link text-gray-700 dark:text-white/70"
-            >
-              <span className="block rounded-full p-1 transition-all duration-300 group-hover/link:bg-black/10 group-hover/link:dark:bg-white/20 group-hover/link:shadow-[0_0_16px_rgba(59,130,246,0.45)] group-hover/link:scale-110 group-hover/link:-rotate-12">
-                <FiExternalLink className="text-base transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
-              </span>
-            </a>
+            {link && (
+              <a
+                href={link}
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label={`Open ${title} project`}
+                className="group/link text-gray-700 dark:text-white/70"
+              >
+                <span className="block rounded-full p-1 transition-all duration-300 group-hover/link:bg-black/10 group-hover/link:dark:bg-white/20 group-hover/link:shadow-[0_0_16px_rgba(59,130,246,0.45)] group-hover/link:scale-110 group-hover/link:-rotate-12">
+                  <FiExternalLink className="text-base transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
+                </span>
+              </a>
+            )}
           </div>
           <p className="mt-2 mb-2 leading-relaxed text-gray-700 dark:text-white/70 text-sm">
             {description}
@@ -65,7 +69,7 @@ export default function Project({
 
         <Image
           src={imageUrl}
-          alt="Project I worked on"
+          alt={`${title} project preview`}
           quality={95}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
