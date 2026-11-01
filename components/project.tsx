@@ -55,7 +55,7 @@ export default function Project({
               )}
             </div>
             {projectCategory && (
-              <span className="rounded-full border border-blue-200 bg-blue-100 px-3 py-1 text-xs font-medium text-blue-800 dark:border-blue-400/30 dark:bg-blue-400/15 dark:text-blue-200">
+              <span className="rounded-full border border-blue-200 bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-800 dark:border-blue-300/50 dark:bg-blue-500/30 dark:text-white">
                 {projectCategory}
               </span>
             )}
