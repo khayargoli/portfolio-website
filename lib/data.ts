@@ -9,7 +9,7 @@ import bluesky from "@/public/blueskyy.png";
 import barabar from "@/public/7.png";
 import bored from "@/public/bored2.jpg";
 import fizno from "@/public/fizno.png";
-import vybestamps from "@/public/vybestamps.jpg";
+import vybestamps from "@/public/vybestamps.png";
 
 export const links = [
   {
@@ -74,21 +74,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Vybestamps Digital Loyalty Platform",
+    title: "Vybestamps - Digital Loyalty Platform",
     description:
-      "A digital loyalty platform that brings every customer card into one phone, helping people collect stamps and stay connected with their favorite local businesses.",
-    tags: ["React", "TypeScript", "Digital Loyalty", "Mobile"],
+      "A digital loyalty platform that brings every customer card into one app, helping people collect stamps and stay connected with their favorite local businesses.",
+    tags: ["Next.js", "TypeScript", "Firebase", "Expo", "Shadcn ui", "Progressive Web App"],
     imageUrl: vybestamps,
+    link: "https://vybestamps.com",
   },
   {
-    title: "Fizno",
+    title: "Fizno - U.S. based Marketplace",
     description: "Worked as a Full Stack Developer on the Fizno Marketplace. Designed and implemented a complete checkout system, ensuring smooth and reliable transactions. Focused on optimizing performance, debugging production issues, and maintaining a stable backend system.",
     tags: ["React", "Next.js", "TypeScript", "Node.js", "AWS", "Stripe"],
     imageUrl: fizno,
     link: "https://fizno.com",
   },
   {
-    title: "WÖRK",
+    title: "WÖRK - Job Marketplace",
     description:
       "I worked as a front-end web and mobile developer on this startup project for 2 years. With WÖRK job seekers can find jobs through video based insights brought by companies. WÖRK is available to download on both AppStore and PlayStore.",
     tags: ["React", "Next.js", "Tailwind", "TypeScript", "Flutter"],
@@ -96,7 +97,7 @@ export const projectsData = [
     link: "https://woerk.app",
   },
   {
-    title: "KeyBalance",
+    title: "KeyBalance - Cloud Based ERP System",
     description:
       "A complete cloud based ERP system. I was the front-end web and mobile app developer. Built with cross-platform technology that runs on android, iOS and browsers.",
     tags: ["Angular", "TypeScript", "PrimeNg", "Ionic Capacitor"],
@@ -104,7 +105,7 @@ export const projectsData = [
     link: "https://keybalance.com",
   },
   {
-    title: "ChillWhales",
+    title: "ChillWhales - NFT Collection",
     description:
       "I worked as a front-end developer and assited in transforming figma design into snappy UI for chillwhales.com which is a digital collection of unique NFTs on the LUKSO blockchain.",
     tags: ["React", "Next.js", "Tailwind", "TypeScript"],
@@ -112,7 +113,7 @@ export const projectsData = [
     link: "https://chillwhales.com",
   },
   {
-    title: "Barabar",
+    title: "Barabar - Bill Splitting App",
     description:
       "Hobby project to explore OCR technology. Barabar is an OCR-powered bill splitting app that lets you snap a receipt, auto-detect items, assign them to people, and instantly generate shareable individual bills.",
     tags: ["Android", "Java", "OCR"],
@@ -120,7 +121,7 @@ export const projectsData = [
     link: "https://play.google.com/store/apps/details?id=com.splitbill.barabar&hl=en",
   },
   {
-    title: "BlueSky Software",
+    title: "BlueSky Software - Security Solutions Company",
     description:
       "Blue Sky is a Connect Security Solutions product. Founded in 2004, the company has ensured safety of security staff for 18 years. I was a solo developer and completed several apps of the company.",
     tags: ["Android", "Java", "BLE Beacon"],
@@ -128,7 +129,7 @@ export const projectsData = [
     link: "https://blueskytrail.co.uk/",
   },
   {
-    title: "Bored",
+    title: "Bored - Smartwatch App",
     description: "Bored is a fun and engaging app born from my love for Amazfit smartwatches. It helps users beat boredom by offering a variety of productive activities right on their wrist.",
     tags: ["ZeppOS", "Amazfit", "Smartwatch"],
     imageUrl: bored,
