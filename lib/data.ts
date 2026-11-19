@@ -85,9 +85,10 @@ export const projectsData = [
   {
     title: "Stamp Out Spiking - Safety Mobile App",
     description:
-      "A safety-focused mobile app that lets users send emergency alerts to their trusted contacts with a precise GPS location, so help can reach them quickly when they need it most.",
+      "A mobile app built to help fight drink spiking across the United Kingdom. It lets users send emergency alerts to their trusted contacts with a precise GPS location, so help can reach them quickly when they need it most.",
     tags: ["React Native", "Expo", "TypeScript"],
     imageUrl: stampoutspiking,
+    link: "https://stampoutspiking.org/",
   },
   {
     title: "Fizno - U.S. based Marketplace",
