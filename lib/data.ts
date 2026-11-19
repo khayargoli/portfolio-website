@@ -91,7 +91,8 @@ export const projectsData = [
   },
   {
     title: "Fizno - U.S. based Marketplace",
-    description: "Worked as a Full Stack Developer on the Fizno Marketplace. Designed and implemented a complete checkout system, ensuring smooth and reliable transactions. Focused on optimizing performance, debugging production issues, and maintaining a stable backend system.",
+    description:
+      "Worked as a Full Stack Developer on the Fizno Marketplace. Built the checkout flow for reliable transactions and integrated AI-powered features to improve product discovery and user experience, while optimizing performance and keeping the backend stable in production.",
     tags: ["React", "Next.js", "TypeScript", "Node.js", "AWS", "Stripe"],
     imageUrl: fizno,
     link: "https://fizno.com",
