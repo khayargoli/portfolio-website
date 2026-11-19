@@ -10,6 +10,7 @@ import barabar from "@/public/7.png";
 import bored from "@/public/bored2.jpg";
 import fizno from "@/public/fizno.png";
 import vybestamps from "@/public/vybestamps.png";
+import stampoutspiking from "@/public/stampoutspiking.jpg";
 
 export const links = [
   {
@@ -80,6 +81,13 @@ export const projectsData = [
     tags: ["Next.js", "TypeScript", "Firebase", "Expo", "Shadcn ui", "Progressive Web App"],
     imageUrl: vybestamps,
     link: "https://vybestamps.com",
+  },
+  {
+    title: "Stamp Out Spiking - Safety Mobile App",
+    description:
+      "A safety-focused mobile app that lets users send emergency alerts to their trusted contacts with a precise GPS location, so help can reach them quickly when they need it most.",
+    tags: ["React Native", "Expo", "TypeScript"],
+    imageUrl: stampoutspiking,
   },
   {
     title: "Fizno - U.S. based Marketplace",
