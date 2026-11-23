@@ -11,6 +11,7 @@ import bored from "@/public/bored2.jpg";
 import fizno from "@/public/fizno.png";
 import vybestamps from "@/public/vybestamps.png";
 import stampoutspiking from "@/public/stampoutspiking.jpg";
+import askmypdfs from "@/public/askmypdfs.png";
 
 export const links = [
   {
@@ -74,6 +75,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "AskMyPDFs - PDF RAG Chat App",
+    description:
+      "A production RAG app where you upload PDFs, ask questions, and get grounded answers with page-level citations. Built with hybrid retrieval, a FastAPI ingest worker, and per-user isolation.",
+    tags: ["Next.js", "TypeScript", "Supabase", "pgvector", "FastAPI", "RAG", "Voyage", "xAI"],
+    imageUrl: askmypdfs,
+    link: "https://askmypdfs.vercel.app/",
+  },
   {
     title: "Vybestamps - Digital Loyalty Platform",
     description:
