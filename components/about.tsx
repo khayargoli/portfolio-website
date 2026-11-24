@@ -31,25 +31,24 @@ export default function About() {
         technologies like Large Language Models (LLMs), RAG, and prompt
         engineering can be used to build intelligent applications, automate
         workflows, and solve real-world problems.
-
-        {" "}I enjoy experimenting with AI technologies, integrating LLMs into
-        applications, and finding practical ways to bring AI capabilities into
-        everyday software. I also{" "}
-        <span className="font-medium">leverage AI tools</span> to improve
-        development speed, enhance code quality, and solve problems more
-        efficiently.
-
-        {" "}Whether it's creating pixel-perfect UIs, optimizing performance,
-        integrating AI-powered features, or solving tricky challenges, I'm
-        always up for it!
-
-        {" "}My <span className="font-medium">favorite</span> part of programming
-        is the problem-solving aspect. I{" "}
-        <span className="underline">love</span> the feeling of finally figuring
-        out a solution to a problem.
       </p>
 
-      <p>
+      <p className="mb-3 font-light">
+        I enjoy experimenting with AI technologies, integrating LLMs into
+        applications, and finding practical ways to bring AI capabilities into
+        everyday software. I also leverage AI tools to improve development speed,
+        enhance code quality, and solve problems more efficiently.
+      </p>
+
+      <p className="mb-3 font-light">
+        Whether it's creating pixel-perfect UIs, optimizing performance,
+        integrating AI-powered features, or solving tricky challenges, I'm
+        always up for it! My favorite part of programming is the problem-solving
+        aspect. I love the feeling of finally figuring out a solution to a
+        problem.
+      </p>
+
+      <p className="mb-3">
         My core stack is{" "}
         <span className="font-medium">
           Next.js/React, Angular, TypeScript, Node.js, and PostgreSQL
@@ -67,7 +66,7 @@ export default function About() {
           exploring new tech trends, experimenting with side projects,
         </span>{" "}
         or enjoying a good cup of coffee. Let's build something{" "}
-        <span className="font-medium">amazing together!</span> 🚀
+        <span className="font-medium">amazing together!</span>
       </p>
     </motion.section>
 
