@@ -34,8 +34,7 @@ export default function About() {
       </p>
 
       <p className="mb-3 font-light">
-        I enjoy experimenting with AI technologies, integrating LLMs into
-        applications, and finding practical ways to bring AI capabilities into
+        I enjoy experimenting with AI technologies, and finding practical ways to bring AI capabilities into
         everyday software. I also leverage AI tools to improve development speed,
         enhance code quality, and solve problems more efficiently.
       </p>
@@ -55,7 +54,7 @@ export default function About() {
         </span>
         , along with experience in{" "}
         <span className="font-medium">
-          LLMs, RAG, Prompt Engineering, AI APIs, and AI application development.
+          LLMs, RAG, Prompt Engineering and AI Integration.
         </span>
       </p>
 
